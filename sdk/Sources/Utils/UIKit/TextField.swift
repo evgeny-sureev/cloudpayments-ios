@@ -8,6 +8,7 @@
 
 import UIKit
 
+@objc(CloudTextField)
 class TextField: UITextField, UITextFieldDelegate {
     private var underlineView : UIView?
     

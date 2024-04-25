@@ -105,7 +105,7 @@
                                             <color key="textColor" name="color_progress_text"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <textField hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="13" translatesAutoresizingMaskIntoConstraints="NO" id="cFc-ky-fMC" customClass="TextField" customModule="Cloudpayments">
+                                        <textField hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="13" translatesAutoresizingMaskIntoConstraints="NO" id="cFc-ky-fMC" customClass="CloudTextField">
                                             <rect key="frame" x="16" y="26" width="456" height="22"/>
                                             <constraints>
                                                 <constraint firstAttribute="height" constant="22" id="g55-eF-SI2"/>
