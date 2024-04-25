@@ -6,10 +6,10 @@
 //
 
 import Foundation
-import CloudpaymentsNetworking
+import CloudPaymentsNetworking
 
 final class Network: BaseRequest, CloudpaymentsRequestType {
-    var data: CloudpaymentsNetworking.CloudpaymentsRequest
+    var data: CloudPaymentsNetworking.CloudpaymentsRequest
     typealias ResponseType = PublicKeyData
     
     private init() {data = .init(path: PublicKeyData.apiURL + "payments/publickey")}

@@ -5,7 +5,7 @@
 //  Created by Sergey Iskhakov on 01.07.2021.
 //
 
-import CloudpaymentsNetworking
+import CloudPaymentsNetworking
 
 class ChargeRequest: BaseRequest, CloudpaymentsRequestType {
     typealias ResponseType = TransactionResponse

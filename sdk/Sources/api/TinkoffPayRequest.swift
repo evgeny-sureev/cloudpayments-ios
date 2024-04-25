@@ -7,7 +7,7 @@
 //
 
 import Foundation
-import CloudpaymentsNetworking
+import CloudPaymentsNetworking
 
 final class TinkoffPayRequest: BaseRequest, CloudpaymentsRequestType {
     typealias ResponseType = TinkoffResultPayData

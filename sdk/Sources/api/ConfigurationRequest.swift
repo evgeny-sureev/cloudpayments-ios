@@ -7,7 +7,7 @@
 //
 
 import Foundation
-import CloudpaymentsNetworking
+import CloudPaymentsNetworking
 
 final class ConfigurationRequest: BaseRequest, CloudpaymentsRequestType {
     typealias ResponseType = GatewayConfiguration

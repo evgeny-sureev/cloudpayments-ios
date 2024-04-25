@@ -7,7 +7,7 @@
 //
 
 import Foundation
-import CloudpaymentsNetworking
+import CloudPaymentsNetworking
 
 final class WaitStatusRequest: BaseRequest, CloudpaymentsRequestType {
     typealias ResponseType = ResponseTransactionModel

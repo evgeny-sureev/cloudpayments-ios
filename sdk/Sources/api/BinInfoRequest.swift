@@ -7,7 +7,7 @@
 //
 
 import Foundation
-import CloudpaymentsNetworking
+import CloudPaymentsNetworking
 
 final class BinInfoRequest: BaseRequest, CloudpaymentsRequestType {
     typealias ResponseType = BankInfoResponse
