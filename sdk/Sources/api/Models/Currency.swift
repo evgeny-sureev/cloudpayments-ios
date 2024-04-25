@@ -9,26 +9,26 @@
 import Foundation
 
 public class Currency {
-    static let ruble: String = "RUB"      //    Российский рубль
-    static let euro: String = "EUR"       //    Евро
-    static let usd: String = "USD"        //    Доллар США
-    static let gbp: String = "GBP"        //    Фунт стерлингов
-    static let uah: String = "UAH"        //    Украинская гривна
-    static let byn: String = "BYN"        //    Белорусский рубль
-    static let kzt: String = "KZT"        //    Казахский тенге
-    static let azn: String = "AZN"        //    Азербайджанский манат
-    static let chf: String = "CHF"        //    Швейцарский франк
-    static let czk: String = "CZK"        //    Чешская крона
-    static let cad: String = "CAD"        //    Канадский доллар
-    static let pln: String = "PLN"        //    Польский злотый
-    static let sek: String = "SEK"        //    Шведская крона
-    static let tur: String = "TRY"        //    Турецкая лира
-    static let cny: String = "CNY"        //    Китайский юань
-    static let inr: String = "INR"        //    Индийская рупия
-    static let brl: String = "BRL"        //    Бразильский реал
-    static let zar: String = "ZAR"        //    Южноафриканский рэнд
-    static let uzs: String = "UZS"        //    Узбекский сум
-    static let bgl: String = "BGL"        //    Болгарский лев
+    public static let ruble: String = "RUB"      //    Российский рубль
+    public static let euro: String = "EUR"       //    Евро
+    public static let usd: String = "USD"        //    Доллар США
+    public static let gbp: String = "GBP"        //    Фунт стерлингов
+    public static let uah: String = "UAH"        //    Украинская гривна
+    public static let byn: String = "BYN"        //    Белорусский рубль
+    public static let kzt: String = "KZT"        //    Казахский тенге
+    public static let azn: String = "AZN"        //    Азербайджанский манат
+    public static let chf: String = "CHF"        //    Швейцарский франк
+    public static let czk: String = "CZK"        //    Чешская крона
+    public static let cad: String = "CAD"        //    Канадский доллар
+    public static let pln: String = "PLN"        //    Польский злотый
+    public static let sek: String = "SEK"        //    Шведская крона
+    public static let tur: String = "TRY"        //    Турецкая лира
+    public static let cny: String = "CNY"        //    Китайский юань
+    public static let inr: String = "INR"        //    Индийская рупия
+    public static let brl: String = "BRL"        //    Бразильский реал
+    public static let zar: String = "ZAR"        //    Южноафриканский рэнд
+    public static let uzs: String = "UZS"        //    Узбекский сум
+    public static let bgl: String = "BGL"        //    Болгарский лев
     
     static func getCurrencySign(code: String) -> String {
         switch code {
