@@ -8,6 +8,7 @@
 
 import UIKit
 
+@objc(CloudPaymentCardForm)
 public class PaymentCardForm: PaymentForm {
     // MARK: - Private properties
     @IBOutlet private weak var cardNumberTextField: TextField!

@@ -10,10 +10,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Payment Card Form-->
+        <!--Cloud Payment Card Form-->
         <scene sceneID="Ekd-cN-VVV">
             <objects>
-                <viewController storyboardIdentifier="PaymentForm" modalPresentationStyle="overCurrentContext" id="yYc-tm-1ad" customClass="PaymentCardForm" customModule="CloudpaymentsSDK" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="PaymentForm" modalPresentationStyle="overCurrentContext" id="yYc-tm-1ad" customClass="CloudPaymentCardForm" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="bBd-gv-a5O">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -372,10 +372,10 @@
             </objects>
             <point key="canvasLocation" x="246.56488549618319" y="108.45070422535211"/>
         </scene>
-        <!--Payment Process Form-->
+        <!--Cloud Payment Process Form-->
         <scene sceneID="Z90-g9-bOz">
             <objects>
-                <viewController storyboardIdentifier="PaymentProcessForm" id="xmx-Pt-dkp" customClass="PaymentProcessForm" customModule="CloudpaymentsSDK" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="PaymentProcessForm" id="xmx-Pt-dkp" customClass="CloudPaymentProcessForm" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Gpt-uD-nOq">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -646,10 +646,10 @@
             </objects>
             <point key="canvasLocation" x="1070.9923664122136" y="107.74647887323944"/>
         </scene>
-        <!--Payment Options Form-->
+        <!--Cloud Payment Options Form-->
         <scene sceneID="b2v-mo-euJ">
             <objects>
-                <viewController storyboardIdentifier="PaymentOptionsForm" definesPresentationContext="YES" providesPresentationContextTransitionStyle="YES" modalTransitionStyle="crossDissolve" modalPresentationStyle="fullScreen" id="1Yz-Du-ae4" customClass="PaymentOptionsForm" customModule="Cloudpayments" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="PaymentOptionsForm" definesPresentationContext="YES" providesPresentationContextTransitionStyle="YES" modalTransitionStyle="crossDissolve" modalPresentationStyle="fullScreen" id="1Yz-Du-ae4" customClass="CloudPaymentOptionsForm" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="W9V-aT-4CT">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
