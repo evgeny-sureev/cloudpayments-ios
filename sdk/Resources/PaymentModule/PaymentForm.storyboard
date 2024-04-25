@@ -877,7 +877,7 @@
                                                             </view>
                                                         </subviews>
                                                     </stackView>
-                                                    <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wyU-2h-F6Y" userLabel="Main view receipt button" customClass="FooterForPresentCard" customModule="Cloudpayments">
+                                                    <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wyU-2h-F6Y" userLabel="Main view receipt button" customClass="CloudFooterForPresentCard">
                                                         <rect key="frame" x="0.0" y="76" width="361" height="50"/>
                                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     </view>
