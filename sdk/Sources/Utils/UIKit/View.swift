@@ -7,6 +7,7 @@
 
 import UIKit
 
+@objc(CloudView)
 public class View: UIView {
     @IBInspectable var activeColor: UIColor = UIColor.mainBlue
     

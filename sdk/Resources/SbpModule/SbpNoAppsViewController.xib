@@ -31,7 +31,7 @@
                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FbJ-R7-FcR" userLabel="TopView">
                                     <rect key="frame" x="0.0" y="0.0" width="414" height="34"/>
                                     <subviews>
-                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oIg-9i-ZZD" customClass="View" customModule="Cloudpayments">
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oIg-9i-ZZD" customClass="CloudView">
                                             <rect key="frame" x="139.66666666666666" y="21" width="134.99999999999997" height="5"/>
                                             <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <constraints>
@@ -117,7 +117,7 @@
                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aQK-0i-1Ti">
                                     <rect key="frame" x="0.0" y="372.66666666666674" width="414" height="96"/>
                                     <subviews>
-                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2fG-yl-Mca" customClass="Button" customModule="Cloudpayments">
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2fG-yl-Mca" customClass="CloudButton">
                                             <rect key="frame" x="16" y="40" width="382" height="56"/>
                                             <color key="backgroundColor" name="color_blue"/>
                                             <constraints>
