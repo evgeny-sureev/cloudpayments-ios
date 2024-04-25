@@ -9,7 +9,7 @@ let package = Package(
         // Products define the executables and libraries a package produces, and make them visible to other packages.
         .library(
             name: "CloudPaymentsSDK",
-            targets: ["CloudPaymentsSDK"]),
+            targets: ["CloudPaymentsSDK", "CloudPaymentsNetworking"]),
         .library(
             name: "CloudPaymentsNetworking",
             targets: ["CloudPaymentsNetworking"]),
