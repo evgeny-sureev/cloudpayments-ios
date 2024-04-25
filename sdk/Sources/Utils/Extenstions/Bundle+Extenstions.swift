@@ -10,11 +10,7 @@ import UIKit
 
 extension Bundle {
     
-    class var mainSdk: Bundle {
-        let bundle = Bundle.init(for: PaymentForm.self)
-        let bundleUrl = bundle.url(forResource: "CloudPaymentsSDK", withExtension: "bundle")
-        return Bundle.init(url: bundleUrl!)!
-    }
+    static let mainSdk = Bundle.module
 }
 
 
