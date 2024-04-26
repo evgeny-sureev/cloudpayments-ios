@@ -79,11 +79,13 @@ public class PaymentData {
     public init() {
     }
     
+    @discardableResult
     public func setAmount(_ amount: String) -> PaymentData {
         self.amount = amount
         return self
     }
     
+    @discardableResult
     public func setCurrency(_ currency: String) -> PaymentData {
         if (currency.isEmpty) {
             self.currency = "RUB"
@@ -93,56 +95,67 @@ public class PaymentData {
         return self
     }
     
+    @discardableResult
     public func setApplePayMerchantId(_ applePayMerchantId: String) -> PaymentData {
         self.applePayMerchantId = applePayMerchantId
         return self
     }
     
+    @discardableResult
     public func setCardholderName(_ cardholderName: String?) -> PaymentData {
         self.cardholderName = cardholderName
         return self
     }
     
+    @discardableResult
     public func setDescription(_ description: String?) -> PaymentData {
         self.description = description
         return self
     }
     
+    @discardableResult
     public func setAccountId(_ accountId: String?) -> PaymentData {
         self.accountId = accountId
         return self
     }
     
+    @discardableResult
     public func setInvoiceId(_ invoiceId: String?) -> PaymentData {
         self.invoiceId = invoiceId
         return self
     }
     
+    @discardableResult
     public func setIpAddress(_ ipAddress: String?) -> PaymentData {
         self.ipAddress = ipAddress
         return self
     }
     
+    @discardableResult
     public func setCultureName(_ cultureName: String?) -> PaymentData {
         self.cultureName = cultureName
         return self
     }
     
+    @discardableResult
     public func setPayer(_ payer: PaymentDataPayer?) -> PaymentData {
         self.payer = payer
         return self
     }
     
+    @discardableResult
     public func setEmail(_ email: String?) -> PaymentData {
         self.email = email
         return self
     }
     
+    @discardableResult
     public func setSplits(_ splits: [Splits]) -> PaymentData {
         self.splits = splits
         return self
     }
 
+    @discardableResult
     public func setJsonData(_ jsonData: String) -> PaymentData {
         
         let map = convertStringToDictionary(text: jsonData)
