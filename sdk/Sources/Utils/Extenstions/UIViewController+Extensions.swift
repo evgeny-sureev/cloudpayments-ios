@@ -16,7 +16,9 @@ extension UIViewController {
     }
     
     @objc func dismissKeyboard() {
-        view.endEditing(true)
+        DispatchQueue.main.async { [weak self] in
+            self?.view.endEditing(true)
+        }
     }
     
     /* Shows default OK action if actions is nil */
