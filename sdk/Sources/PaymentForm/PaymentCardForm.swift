@@ -88,7 +88,7 @@ public class PaymentCardForm: PaymentForm {
         configuration.paymentUIDelegate.paymentFormWillHide()
         self.dismiss(
             animated: true,
-            completion: { [configuration] in
+            completion: { [configuration = self.configuration] in
                 configuration?.paymentUIDelegate.paymentFormDidHide()
             }
         )

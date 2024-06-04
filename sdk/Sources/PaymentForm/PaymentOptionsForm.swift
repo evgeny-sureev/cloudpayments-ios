@@ -252,7 +252,7 @@ final class PaymentOptionsForm: PaymentForm, PKPaymentAuthorizationViewControlle
         presentesionView(false) {
             self.dismiss(
                 animated: false,
-                completion: { [self.configuration] in
+                completion: { [configuration = self.configuration] in
                     configuration?.paymentUIDelegate.paymentFormDidHide()
                 }
             )
@@ -912,7 +912,7 @@ private extension PaymentOptionsForm {
                 presentesionView(false) {
                     self.dismiss(
                         animated: false,
-                        completion: { [self.configuration] in
+                        completion: { [configuration = self.configuration] in
                             configuration?.paymentUIDelegate.paymentFormDidHide()
                         }
                     )
