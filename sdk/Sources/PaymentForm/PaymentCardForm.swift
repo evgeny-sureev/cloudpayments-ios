@@ -87,7 +87,13 @@ public final class PaymentCardForm: PaymentForm {
     }
     
     @IBAction func dismissButtonTapped(_ sender: UIButton) {
-        self.dismiss(animated: true)
+        configuration.paymentUIDelegate.paymentFormWillHide()
+        self.dismiss(
+            animated: true,
+            completion: { [configuration = self.configuration] in
+                configuration?.paymentUIDelegate.paymentFormDidHide()
+            }
+        )
     }
     
     func setupEyeButton() {
