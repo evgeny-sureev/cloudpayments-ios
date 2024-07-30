@@ -9,6 +9,7 @@
 import UIKit
 import PassKit
 
+@objc(CloudPaymentOptionsForm)
 final class PaymentOptionsForm: PaymentForm, PKPaymentAuthorizationViewControllerDelegate  {
     
     @IBOutlet private weak var applePayContainer: View!

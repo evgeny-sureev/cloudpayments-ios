@@ -8,6 +8,7 @@
 
 import UIKit
 
+@objc(CloudButton)
 class Button: UIButton {
     var onAction: (()->())?
     

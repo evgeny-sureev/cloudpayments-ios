@@ -7,6 +7,7 @@
 
 import UIKit
 
+@objc(CloudFooterForPresentCard)
 final class FooterForPresentCard: UIView {
     
     @IBOutlet private weak var savingButton: UIButton!

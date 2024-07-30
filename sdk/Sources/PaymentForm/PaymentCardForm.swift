@@ -8,6 +8,7 @@
 
 import UIKit
 
+@objc(CloudPaymentCardForm)
 public final class PaymentCardForm: PaymentForm {
     
     // MARK: - Private properties

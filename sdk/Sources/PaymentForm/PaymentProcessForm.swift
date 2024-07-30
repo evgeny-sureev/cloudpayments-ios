@@ -9,6 +9,7 @@
 import UIKit
 import WebKit
 
+@objc(CloudPaymentProcessForm)
 public final class PaymentProcessForm: PaymentForm {
     
     public enum State {
